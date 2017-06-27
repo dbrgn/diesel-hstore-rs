@@ -1,8 +1,8 @@
 [package]
-name = "diesel-hstore"
+name = "diesel_hstore"
 version = "0.1.0"
 authors = ["Danilo Bargen <mail@dbrgn.ch>"]
 
 [dependencies.diesel]
-version = "*"
+version = "0.13"
 features = ["postgres"]

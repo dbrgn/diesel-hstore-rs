@@ -12,8 +12,8 @@ mod types;
 impl diesel::types::HasSqlType<types::Hstore> for pg::Pg {
     fn metadata() -> pg::PgTypeMetadata {
         pg::PgTypeMetadata {
-            oid: 1,
-            array_oid: 1,
+            oid: 0,
+            array_oid: 0,
         }
     }
 }

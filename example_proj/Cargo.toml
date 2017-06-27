@@ -1,0 +1,10 @@
+[package]
+name = "cargo-hstore-example"
+version = "0.1.0"
+authors = ["Danilo Bargen <mail@dbrgn.ch>"]
+
+[dependencies]
+diesel = { version = "0.13", features = ["postgres"] }
+diesel_codegen = { version = "0.13.0", features = ["postgres"] }
+diesel_hstore = { path = ".." }
+dotenv = "0.10.0"
